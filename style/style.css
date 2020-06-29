@@ -1,0 +1,116 @@
+
+body{
+ 
+ width: 100%;
+  
+}
+
+.navbar{
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.logo{
+  margin: 15px;
+  border-radius:5px;
+}
+
+.h4{
+  padding-right:50px;
+}
+
+.content-image{
+  width: 95%;
+  height: 20em;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  box-shadow: 9px 4px 21px -5px rgba(0,0,0,0.68);
+  -webkit-box-shadow: 9px 4px 21px -5px rgba(0,0,0,0.68);
+  -moz-box-shadow: 9px 4px 21px -5px rgba(0,0,0,0.68);
+}
+
+.container{
+margin-top: 68px;
+
+}
+
+
+.content {
+  position: relative;
+  border-radius: 15px;
+  width: 95%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: 20em;
+  width: 95%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+  opacity: 1
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left:;
+  padding-right:;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s
+}
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1
+}
+.content-details h3 {
+  color: #fff;
+  font-size: 1.5em
+}
+
+.content-details p {
+  color: #e0dede;
+  font-size: 0.9em
+}
+
+.fadeIn-bottom {
+  top: 80%
+}
+
+.footer {
+ background-color: black;
+ color:white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.sub{
+  color:grey;
+}
+
+.sub:hover{
+  color:white;
+}

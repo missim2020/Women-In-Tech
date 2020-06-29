@@ -1,0 +1,59 @@
+
+/*add this peace of code for navbar*/
+.navbar{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  
+  .logo{
+    margin: 15px;
+    border-radius:5px;
+  }
+  
+  .h4{
+    padding-right:50px;
+  }
+
+/*-end of added code-*/
+
+.col{
+  text-align: justify; /* add justify to columns*/
+}
+
+.text-center{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#video{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.body{
+    width: 100%;
+   }
+/*add this peace of code for the footer*/
+   .footer {
+    background-color: black;
+    color:white;
+     padding: 1rem;
+     text-align: center;
+   }
+   
+   .sub{
+     color:grey;
+   }
+   
+   .sub:hover{
+     color:white;
+   }
+   /*-end of added code-*/

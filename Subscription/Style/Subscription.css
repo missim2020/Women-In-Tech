@@ -29,6 +29,9 @@
 
 /*-end of added code-*/
 
+.sub{
+  margin-top: 40px;
+}
 
   a  { color: lightgrey; }
 
@@ -51,8 +54,7 @@ form  {
 form  {
   padding: 10px 1px;
   margin: 0 auto;
-  width: 500px !important;
-}
+  }
 
 
 div[type="text"]:focus {
